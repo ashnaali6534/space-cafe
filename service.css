@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background: #0a0f1f; 
+    color: white;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: #111830;
+    border-bottom: 2px solid #3a4a80;
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #9bb5ff;
+}
+
+/* Services Section */
+.services-section {
+    width: 80%;
+    margin: 40px auto;
+}
+
+.services-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #9bb5ff;
+    margin-bottom: 30px;
+}
+
+/* Boxes */
+.service-box {
+    background: rgb(23, 47, 120);
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px 0;
+    border: 1px solid #3e508b;
+    transition: 0.5s;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    background: #09194b;
+}
+
+.service-box h3 {
+    font-size: 1.6rem;
+    color: #d4e1ff;
+    margin-bottom: 10px;
+}
+
+.service-box p {
+    font-size: 1rem;
+    color: #cdd7ff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111830;
+    margin-top: 40px;
+    border-top: 2px solid #3a4a80;
+}
